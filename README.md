@@ -24,7 +24,7 @@ A simple real‑time “stranger calling” Android application built with Moder
   - Kotlin  
   - Jetpack Compose  
 - **Architecture & State**  
-  - MVI pattern (ViewModel + StateFlow)  
+  - MVI Architecture 
   - Kotlin Coroutines & Flow  
 - **Backend & Data**  
   - Firebase Authentication (Google Sign‑In)  
