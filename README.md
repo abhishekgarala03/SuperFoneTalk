@@ -45,11 +45,8 @@ A simple real‑time “stranger calling” Android application built with Moder
 - **Firebase**  
   - A Firebase project with Firestore & Authentication enabled  
   - `google‑services.json` in `app/`  
-- **SDKs & Permissions**  
+- **SDKs**  
   - Jitsi Meet SDK dependency in `build.gradle`  
-  - Runtime permissions:
-    - `RECORD_AUDIO`  
-    - `INTERNET`  
 
 ---
 
@@ -57,13 +54,17 @@ A simple real‑time “stranger calling” Android application built with Moder
 
 ### Add Firebase config
 
-Copy your #google-services.json into #app/.
+Create Firebase project
 
-In the Firebase console, enable:
+Add google-services.json to app directory
 
-Firestore (in test mode or with proper rules)
+Enable Google Authentication
 
-Authentication → Sign‑in method → Google
+Enable Realtime Database
+
+**Build project after complete above steps**
+
+Define **WEB_CLIENT_ID** with your actual Web Client ID in file **local.properties**
 
 ### Sync & Build
 
