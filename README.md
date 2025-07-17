@@ -30,7 +30,7 @@ A simple real‑time “stranger calling” Android application built with Moder
   - Firebase Authentication 
   - Google Firestore (matchmaking)
 - **RTC**  
-  - [Jitsi Meet SDK](https://github.com/jitsi/jitsi-meet-sdk-android)
+  - [Jitsi Meet SDK](https://jitsi.github.io/handbook/docs/dev-guide/dev-guide-android-sdk)
 - **DI & Async**  
   - Hilt for dependency injection  
   - `kotlinx-coroutines-play-services` for Firebase task support  
