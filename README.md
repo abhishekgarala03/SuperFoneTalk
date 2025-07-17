@@ -1,6 +1,6 @@
 # SuperFoneTalk
 
-A simple real‑time “stranger calling” Android application built with modern Android tooling. Users sign in with Google (Firebase Auth), get randomly matched with another online user via Firestore, and start an call using Jitsi Meet SDK.
+A simple real‑time “stranger calling” Android application built with Modern Android Development. Users sign in with Google, get randomly matched with another online user via Firestore, and start an call using Jitsi Meet SDK.
 
 ---
 
