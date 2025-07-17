@@ -7,7 +7,7 @@ A simple real‑time “stranger calling” Android application built with Moder
 ## App Description
 
 - **Google Sign‑In**  
-  Authenticate users with Firebase Authentication (Google).
+  Authenticate users with Firebase Authentication.
 - **Random Matching**  
   Uses Firestore “waiting” collection to pair two online users in real time.
 - **Voice Call**  
@@ -27,8 +27,8 @@ A simple real‑time “stranger calling” Android application built with Moder
   - MVI Architecture 
   - Kotlin Coroutines & Flow  
 - **Backend & Data**  
-  - Firebase Authentication (Google Sign‑In)  
-  - Google Firestore (matchmaking)  
+  - Firebase Authentication 
+  - Google Firestore (matchmaking)
 - **RTC**  
   - [Jitsi Meet SDK](https://github.com/jitsi/jitsi-meet-sdk-android)
 - **DI & Async**  
@@ -40,7 +40,7 @@ A simple real‑time “stranger calling” Android application built with Moder
 ## Requirements
 
 - **IDE & Tools**  
-  - Android Studio Arctic Fox or later  
+  - Android Studio Koala or later  
   - Kotlin ≥ 1.8.0  
 - **Firebase**  
   - A Firebase project with Firestore & Authentication enabled  
